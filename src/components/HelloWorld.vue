@@ -12,6 +12,7 @@
 
 <script>
 import VeMap from "v-charts/lib/map.common";
+require('echarts/lib/chart/effectScatter')
 import Axios from 'axios';
 export default {
   name: "HelloWorld",
